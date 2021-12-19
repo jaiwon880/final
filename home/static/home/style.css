@@ -1,0 +1,22 @@
+body {
+    background : white url("images/background.png") no-repeat;
+    background-position: 140px 170px;
+    background-size: 10%;
+    height: 800px;
+    border-top: 10px solid #D2691E;
+}
+title{
+    color: #c80;
+    font-weight: bold;
+}
+li a {
+    color: green;
+}
+
+h4{
+    margin-left: 20px;
+}
+h6{
+    color:#e4b9c0;
+    margin-left: 20px;
+}

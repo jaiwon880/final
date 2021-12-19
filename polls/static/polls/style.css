@@ -1,0 +1,39 @@
+body{
+    background: white url("images/background.png") no-repeat; /*이미지 반복 없음*/
+    background-size: 50%;
+    background-position-x:200px;
+    background-position-y:200px ;
+
+    border-top: 10px solid #D2691E;
+    color:#9b0823;
+}
+
+li a {
+    color: #e1309a;
+    text-decoration:none;
+
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+h1{
+    font-size: 20px;
+    color:#e4b9c0 ;
+}
+
+p{
+    color:#e86b7d;
+}
+li {
+    color:#e4b9c0;
+}
+
+form input{
+    color:#e4b9c0;
+}
+label{
+    color:#e86b7d;
+}

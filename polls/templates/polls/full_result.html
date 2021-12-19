@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %} full_result.html{% endblock %}
+
+{% block content %}
+
+<div><h3>Poll Result</h3>
+    <p></p>
+        <ol>
+            <div class="question">
+            <li style="padding-bottom: 25px;">
+              <p>{{question.question_text}}</p>
+              <div style="margin-left: 30px;">
+                <table class='table'>
+
+                  <thead>
+                    <tr>
+                      <td>CHOICE</td>
+                      <td>POLLSRESPONES</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for choice in question.choice_set.all %}
+                    <tr>
+                      <td>{{ choice.choice_text }}</td>
+                      <td>{{ choice.votes }}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            </div>
+          </ol>
+    </div>
+{% endblock %}
