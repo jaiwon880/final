@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'polls',
     'bookmark',
     'blog',
-    'guardian',
     'widget_tweaks',
 ]
 
