@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'polls',
     'bookmark',
     'blog',
-    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
